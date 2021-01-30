@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Blocks /> should match snapshot 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-2"
+>
+  <div
+    className="MuiBox-root MuiBox-root-6 makeStyles-blockItem-3"
+  >
+    <h6
+      className="MuiTypography-root makeStyles-index-5 MuiTypography-subtitle1"
+    >
+      1
+    </h6>
+    <p
+      className="MuiTypography-root makeStyles-heading-4 MuiTypography-body1"
+    >
+      The Human Torch
+    </p>
+  </div>
+  <div
+    className="MuiBox-root MuiBox-root-37 makeStyles-blockItem-3"
+  >
+    <h6
+      className="MuiTypography-root makeStyles-index-5 MuiTypography-subtitle1"
+    >
+      2
+    </h6>
+    <p
+      className="MuiTypography-root makeStyles-heading-4 MuiTypography-body1"
+    >
+      is denied
+    </p>
+  </div>
+  <div
+    className="MuiBox-root MuiBox-root-38 makeStyles-blockItem-3"
+  >
+    <h6
+      className="MuiTypography-root makeStyles-index-5 MuiTypography-subtitle1"
+    >
+      3
+    </h6>
+    <p
+      className="MuiTypography-root makeStyles-heading-4 MuiTypography-body1"
+    >
+      a bank loan
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Blocks /> should match snapshot 2`] = `
+<div
+  className="MuiBox-root MuiBox-root-41"
+>
+  <span
+    className="makeStyles-text-39 makeStyles-text-40"
+  >
+    Loading blocks...
+  </span>
+</div>
+`;
+
+exports[`<Blocks /> should match snapshot when loading 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-4"
+>
+  <span
+    className="makeStyles-text-1 makeStyles-text-2"
+  >
+    Loading blocks...
+  </span>
+</div>
+`;

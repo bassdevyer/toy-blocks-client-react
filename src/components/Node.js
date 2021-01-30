@@ -9,8 +9,10 @@ import {
   makeStyles,
   Box,
 } from "@material-ui/core";
+import Blocks from '../containers/Blocks'
 import colors from "../constants/colors";
 import Status from "./Status";
+import OfflineNode from './OfflineNode';
 
 const Node = ({ node, expanded, toggleNodeExpanded }) => {
   const classes = useStyles();
@@ -46,7 +48,14 @@ const Node = ({ node, expanded, toggleNodeExpanded }) => {
         </Box>
       </ExpansionPanelSummary>
       <ExpansionPanelDetails>
-        <Typography>Blocks go here</Typography>
+        {node.online ?
+        (<Blocks
+          node={node}
+        /> ) :
+          (
+            <OfflineNode/>
+          )
+        }
       </ExpansionPanelDetails>
     </ExpansionPanel>
   );
